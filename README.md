@@ -70,6 +70,16 @@ They faced three hard constraints:
 - A lean, fast-moving team With engineering focused on shipping product and improving member outcomes, the team couldn’t afford months of manual documentation.
 - Compliance that reflected reality Lucis didn’t want a generic framework that looked good on paper. They wanted certification to reflect how they actually built and operated their systems.
 
+### Ideas from Reddit
+
+#### What's one compliance requirement you thought would be a waste of time, but ended up making your security noticeably better?
+
+- Centralized logging.
+- Version control. I used to think people made too big a deal out of it until we had three different copies of the same document.
+- Quarterly access reviews.
+- Firewall rules review.
+- Training content versioning.
+
 ### To implement
 
 - https://security.finic.ai/?tab=compliance  
