@@ -1,15 +1,36 @@
 # DORA
 
-- Afin de limiter le risque de conflits d’intérêts, les entités financières devraient veiller à la séparation des tâches lors de  l’attribution de rôles et de responsabilités 
-- Afin de garantir une bonne gestion du risque lié aux systèmes de TIC hérités, les entités financières devraient  enregistrer et surveiller les dates d’expiration des services TIC d’appui fournis par des tiers.
-- DAMIEN CLOCHARD m'a parlé de ça : Les contrôles cryptographiques peuvent garantir la disponibilité, l’authenticité, l’intégrité et la confidentialité des  données. Les entités financières visées au titre II du présent règlement devraient donc définir et mettre en œuvre ces  contrôles sur la base d’une approche fondée sur les risques. À cette fin, les entités financières devraient chiffrer les  données concernées, au repos, en transit ou, si nécessaire, en cours d’utilisation, sur la base des résultats d’un  processus en deux volets, à savoir la classification des données et une évaluation complète du risque lié aux TIC.
-- Un aspect essentiel est la séparation stricte entre  les environnements de production des TIC, d’une part, et les environnements dans lesquels les systèmes de TIC sont  développés et testés, ou les autres environnements hors production, d’autre part.
-- La gestion des correctifs devrait être un élément essentiel des politiques et procédures de sécurité des TIC qui, grâce  aux tests et au déploiement dans un environnement contrôlé, doivent permettre de remédier aux vulnérabilités  identifiées et d’éviter des perturbations lors de l’installation de correctifs. 
-- si une entreprise SaaS découvre une faille de sécurité, elle doit avoir un processus clair pour prévenir les bonnes personnes (clients, partenaires, public) au bon moment, plutôt que de cacher le problème ou de communiquer n'importe comment (gravité, impact, solution)
-- Chaque personne (et chaque système/API) qui accède aux données doit avoir son propre identifiant unique (HashiCorp Vault, IAM)
+## Pourquoi séparer les tâches et les responsabilités ?
+Pour limiter les conflits d'intérêts.
 
+## Pourquoi suivre les dates de fin de support des systèmes TIC ?
+Pour gérer les risques liés aux technologies héritées (legacy).
 
-## For who ?
+## Pourquoi utiliser des contrôles cryptographiques ?
+Pour garantir la confidentialité, l'intégrité, la disponibilité et l'authenticité des données.
+
+## Quand faut-il chiffrer les données ?
+Au repos, en transit et, si nécessaire, en cours d'utilisation.
+
+## Sur quoi repose le choix des mesures de chiffrement ?
+Sur la classification des données et l'évaluation des risques.
+
+## Pourquoi séparer les environnements de développement et de production ?
+Pour éviter qu'un test impacte les systèmes en production.
+
+## Pourquoi la gestion des correctifs est-elle essentielle ?
+Pour corriger les vulnérabilités en limitant les risques de perturbation.
+
+## Que faire lorsqu'une faille de sécurité est découverte ?
+Suivre un processus de notification clair pour informer les bonnes parties au bon moment.
+
+## Pourquoi chaque utilisateur ou système doit-il avoir une identité unique ?
+Pour assurer la traçabilité et appliquer les droits d'accès correctement.
+
+## Quels outils permettent de gérer les identités et les secrets ?
+HashiCorp Vault et une solution IAM.
+
+## Pour qui ?
 
 DORA is aimed specifically at EU-based financial entities and ICT service providers.
 
