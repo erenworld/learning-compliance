@@ -99,6 +99,34 @@ Protéger la confidentialité, l'intégrité, la disponibilité et l'authenticit
 ## Quels sont les quatre principes de la sécurité de l'information ?
 Confidentialité, intégrité, disponibilité et authenticité.
 
+## Problème : Les autorités doivent pouvoir examiner facilement le cadre de gestion des risques TIC des entités financières.
+
+Réaliser un réexamen régulier et transmettre un rapport dans un format électronique interrogeable.
+
+## Problème : Les mesures de sécurité TIC ne peuvent pas être identiques pour toutes les entités financières.
+
+Solution : Adapter les politiques et contrôles de sécurité au profil de risque, à la taille et à la complexité de l'entité, en couvrant notamment le chiffrement, la sécurité des opérations et des réseaux, la gestion des changements TIC et la continuité d'activité.
+
+## Que doivent garantir les politiques de sécurité TIC (al. 1) ?
+
+a) Sécurité des réseaux
+b) Garanties contre intrusions et abus de données
+c) Disponibilité, authenticité, intégrité, confidentialité (dont cryptographie)
+d) Transmission précise et rapide sans retard injustifié
+
+## Sur quoi doivent être alignées les politiques de sécurité TIC ? (2.a)
+
+Sur les objectifs de sécurité de l'information définis dans la stratégie de résilience opérationnelle numérique (art. 6§8 DORA)
+
+## Que doit indiquer la politique concernant l'organe de direction ? (2.b)
+
+La date de son approbation formelle par l'organe de direction
+
+## Que doivent suivre les indicateurs de mise en œuvre ? (2.c.i)
+
+La mise en œuvre effective des politiques, procédures, protocoles et outils de sécurité TIC
+
+
 ---
 
 
